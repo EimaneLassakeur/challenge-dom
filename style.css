@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+}
+
+.container{
+    background-color: #625efb;
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.title{
+    background-color: #d1d8c6;
+    text-align: center;
+    font-weight: 400;
+}
+
+.form{
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.form label{
+    font-size: 2rem;
+}
+
+.form input{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.label-container, .select-container, .button-container{
+    display: flex;
+    gap: 20px;
+    height: 40px;
+}
+
+.select-container select{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.button-container input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7e8ef0;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
